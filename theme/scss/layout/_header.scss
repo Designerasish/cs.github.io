@@ -1,0 +1,31 @@
+.header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .logo {
+        margin-right: auto;
+    }
+    a {
+        display: block;
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        a {
+            padding: 0 30px;
+            color: $white;
+            &.login {
+                background: $white;
+                color: $blue;
+                padding: 8px 30px;
+                border-radius: 20px;
+                margin-left: 45px;
+            }
+        }
+    }
+}
